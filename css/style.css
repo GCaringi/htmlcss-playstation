@@ -8,6 +8,11 @@ body{
 
 
 /*-----------
+    Buttons
+------------*/
+
+
+/*-----------
      Header
 ------------*/
 
@@ -16,6 +21,19 @@ body{
     padding: 10px 0px;
 }
 
-svg{
+.header-top svg{
     height: 14px;
 }
+
+.dropdown_cs{
+    white-space: nowrap;
+}
+
+.dropdown_cs::after{
+    content: url(../img/chevron-down-solid.svg);
+    display: inline-block;
+    position: absolute;
+    width: 10px;
+    right: -10px;
+}
+
