@@ -1,0 +1,21 @@
+/*--------
+    TYPO
+----------*/
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/*-----------
+     Header
+------------*/
+
+.header-top{
+    background-color: #000;
+    padding: 10px 0px;
+}
+
+svg{
+    height: 14px;
+}
