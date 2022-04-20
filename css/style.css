@@ -139,3 +139,21 @@ header{
     left: 50%;
     transform: translate(-50%, 0px);
 }
+
+/* Jumbo it takes two */
+
+.bg-jumbo{
+    background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
+    background-position: bottom;
+    background-size: cover;
+}
+
+.jumbo-img{
+    height: 200px;
+}
+
+.jumbo-info{
+    padding-top: 100px;
+    padding-bottom: 45px;
+    padding-left: 40px;
+}
