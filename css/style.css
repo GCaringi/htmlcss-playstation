@@ -118,3 +118,24 @@ header{
 }
 
 /* Section Playstation5 */
+
+/* Thumbnails gallery PS5 Devices */
+
+.thumb-gallery-devices img{
+    opacity: 0.4;
+}
+
+.thumb-gallery-active img{
+    opacity: 1;
+}
+
+.thumb-gallery-active::after{
+    content: "";
+    height: 2px;
+    width: 50%;
+    background-color: #0072CE;
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translate(-50%, 0px);
+}
