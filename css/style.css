@@ -7,6 +7,14 @@ body{
     color: #000;
 }
 
+#play5 h6{
+    color: #0072CE;
+}
+
+#play5 h2{
+    font-size: 42px;
+}
+
 /*-----------
     Buttons
 ------------*/
@@ -66,21 +74,22 @@ header{
 /*---------
     Main
 ----------*/
-/* header{
-    display: none;
-} */
 
-.hero{
+/* Section Hero and thumbnails */
+
+#hero{
     position: relative;
     top: 110px;   /* Altezza dell'Header */
 }
 
 .img-bg{
     position: relative;
+    margin-bottom: 20px;
 }
 
 .hero-img{
     width: 100%;
+    height: 100%;
 }
 
 .hero-logo-img{
@@ -102,3 +111,12 @@ header{
     left: 10px;
 }
 
+.thumb{
+    column-gap: 10px;
+}
+
+.thumb-img{
+    border-radius: 20px;
+}
+
+/* Section Playstation5 */
