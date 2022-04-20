@@ -1,3 +1,11 @@
+/*------------
+     Commons
+-------------*/
+
+body{
+    padding-top: 110px;
+}
+
 /*--------
     TYPO
 ----------*/
@@ -33,6 +41,10 @@ body{
 
 .btn_red{
     background-color: #CD3D0F;
+}
+
+.btn_blue{
+    background-color: #0072CE;
 }
 
 /*-----------
@@ -75,45 +87,25 @@ header{
     Main
 ----------*/
 
-/* Section Hero and thumbnails */
+/* Hero */
 
-#hero{
-    position: relative;
-    top: 110px;   /* Altezza dell'Header */
+.bg-hero{
+    background-image: url("../img/jumbo-bg.png");
+    background-position: center;
+    background-size: cover;
 }
 
-.img-bg{
-    position: relative;
-    margin-bottom: 20px;
-}
-
-.hero-img{
-    width: 100%;
-    height: 100%;
-}
-
-.hero-logo-img{
+.hero-logo{
     height: 40px;
 }
 
-.hero-info-container{
-    position: absolute;
-    height: auto;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
-}
-
 .hero-info{
-    position: absolute;
-    bottom: 30px;
-    left: 10px;
+    padding-top: 330px;
+    padding-bottom: 45px;
+    padding-left: 40px;
 }
 
-.thumb{
-    column-gap: 10px;
-}
+/* Thumbnails gallery */
 
 .thumb-img{
     border-radius: 20px;
