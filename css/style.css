@@ -17,10 +17,16 @@ body{
 
 #play5 h6{
     color: #0072CE;
+    font-weight: bold;
 }
 
 #play5 h2{
-    font-size: 42px;
+    font-size: 45px;
+}
+
+#play5 p{
+    color: #727272;
+    font-size: 20px;
 }
 
 /*-----------
@@ -100,7 +106,7 @@ header{
 }
 
 .hero-info{
-    padding-top: 330px;
+    padding-top: 530px;
     padding-bottom: 45px;
     padding-left: 40px;
 }
