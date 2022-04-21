@@ -181,3 +181,18 @@ header{
 #playnow{
     background-color: #161C3B;
 }
+
+footer{
+    background-color: #00439C;
+}
+
+.svg-inline--fa{
+    display: inline-block;
+    width: 20px;
+}
+
+.footer-top ul li a{
+    color: inherit;
+    text-decoration: none;
+}
+
