@@ -24,11 +24,11 @@ body{
     font-weight: bold;
 }
 
-#play5 h2{
+#play5 h2, #play4 h2{
     font-size: 45px;
 }
 
-#play5 p{
+#play5 p, #play4 p{
     color: #727272;
     font-size: 20px;
 }
@@ -40,7 +40,7 @@ body{
 .btn_cs{
     color: white;
     border: none;
-    border-radius: 10px;
+    border-radius: 20px;
     padding: 6px 16px;
     cursor: pointer;
 }
@@ -121,7 +121,7 @@ header{
 
 /* Thumbnails gallery PS5 Devices */
 
-.thumb-gallery-devices img{
+.thumb-gallery-devices-play5 img{
     opacity: 0.4;
 }
 
