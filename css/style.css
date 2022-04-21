@@ -6,6 +6,10 @@ body{
     padding-top: 110px;
 }
 
+.rounded_cs{
+    border-radius: 20px;
+}
+
 /*--------
     TYPO
 ----------*/
@@ -112,10 +116,6 @@ header{
 }
 
 /* Thumbnails gallery */
-
-.thumb-img{
-    border-radius: 20px;
-}
 
 /* Section Playstation5 */
 
