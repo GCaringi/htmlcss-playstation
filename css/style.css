@@ -57,6 +57,11 @@ body{
     background-color: #0072CE;
 }
 
+.btn_lightgrey{
+    color: #2D64E6;
+    background-color: #D9DADC;
+}
+
 /*-----------
      Header
 ------------*/
@@ -162,4 +167,8 @@ header{
 
 #last-relase{
     background-color: #1F1F1F;
+}
+
+#playplus{
+    background-color: #BEBCBB;
 }
