@@ -1,5 +1,5 @@
 /*------------
-     Commons
+    COMMONS
 -------------*/
 
 body{
@@ -8,6 +8,16 @@ body{
 
 .rounded_cs{
     border-radius: 20px;
+}
+
+.dropdown_cs{
+    white-space: nowrap;
+}
+
+.dropdown_cs::after{
+    content: url("../img/chevron-down-solid.svg");
+    display: inline-block;
+    width: 10px;
 }
 
 /*--------
@@ -24,17 +34,17 @@ body{
     font-weight: bold;
 }
 
-#play5 h2, #play4 h2{
+#play5 h2, #play4 h2, #discounts h2, #social h2{
     font-size: 45px;
 }
 
-#play5 p, #play4 p{
+#play5 p, #play4 p, #discounts p{
     color: #727272;
     font-size: 20px;
 }
 
 /*-----------
-    Buttons
+    BUTTONS
 ------------*/
 
 .btn_cs{
@@ -67,6 +77,34 @@ body{
     background-color: #F5F5F5;
 }
 
+/*------------------
+    BUTTONS EFFECTS
+--------------------*/
+
+.btn_grey:hover{
+    outline: 2px solid #363636; ;
+    outline-offset: 2px;
+}
+
+.btn_red:hover{
+    outline: 2px solid #CD3D0F; ;
+    outline-offset: 2px;    
+}
+
+.btn_blue:hover{
+    outline: 2px solid #0072CE ;
+    outline-offset: 2px;    
+}
+
+.btn_white:hover{
+    outline: 2px solid #F5F5F5; ;
+    outline-offset: 2px;    
+}
+
+.btn_lightgrey:hover{
+    box-shadow: 0px -3px 10px #fff;
+}
+
 /*-----------
      Header
 ------------*/
@@ -77,6 +115,10 @@ header{
     z-index: 9;
     top: 0px;
     left: 0px;
+}
+
+.nav-link:visited{
+    color: inherit;
 }
 
 .header-top{
@@ -90,17 +132,6 @@ header{
 
 .header-bottom{
     background-color: white;
-}
-
-.dropdown_cs{
-    white-space: nowrap;
-}
-
-.dropdown_cs::after{
-    content: url(../img/chevron-down-solid.svg);
-    display: inline-block;
-    width: 10px;
-    fill: black;
 }
 
 /*---------
@@ -127,6 +158,11 @@ header{
 
 /* Thumbnails gallery */
 
+.active-thumb{
+    outline: 3px solid #0072CE; ;
+    outline-offset: 3px; 
+}
+
 /* Section Playstation5 */
 
 /* Thumbnails gallery PS5 Devices */
@@ -145,7 +181,7 @@ header{
     width: 50%;
     background-color: #0072CE;
     position: absolute;
-    bottom: 0px;
+    bottom: -5px;
     left: 50%;
     transform: translate(-50%, 0px);
 }
@@ -198,4 +234,42 @@ footer{
 
 .sony-e-logo{
     height: 50px;
+}
+
+/*--------
+ EFFECTS
+---------*/
+.nav-item:hover .nav-link{
+    color: grey;
+}
+
+.nav-item:hover .dropdown_cs::after{
+    display: none;
+}
+
+.nav-item:hover .dropdown_cs::after{
+    content: url("../img/chevron-down-solid-hover.svg");
+    display: inline-block;
+    width: 10px;
+}
+
+.transition-thumb:hover{
+    cursor: pointer;
+    position: relative;
+    top: -20px;
+}
+
+#play5 [class *= "col"]:hover.thumb-gallery-effect .img-fluid{
+    opacity: 1;
+}
+
+#play5 [class *= "col"]:hover.thumb-gallery-effect::after{
+    content: "";
+    height: 2px;
+    width: 50%;
+    background-color: #0072CE;
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translate(-50%, 0px);
 }
